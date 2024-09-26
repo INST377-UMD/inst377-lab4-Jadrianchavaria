@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>LAB 4</title>
+        <link rel="stylesheet" href="LAB4.css"> <!-- Link to the style sheet -->
+    </head>
+    <body>
+        <!--Header Section--->
+        <header id="bar">
+            <h1>Joshua Chavarria's INST 377 Lab 4</h1>
+        </header>
+
+        <!--Main Text Area-->
+        <div class="main-container">
+            <h1>Joshua Chaavarria's Web Features</h1>
+            
+            <div class="content-area">
+                <div class="content-box" id="alertMeSection">
+                    <h2>Alert Me Section</h2>
+                    <form id="alertForm">
+                        <input type="text" id="nameInput" placeholder="Enter your name" required>
+                        <button type="button" onclick="alertMe()">Alert Me</button>
+                    </form>
+                </div>
+
+                <div class="content-box" id="changeColorSection">
+                    <h2>Change Color Section</h2>
+                    <button type="button" onclick="changeColor()">Change Color</button>
+                </div>
+
+                <div class="content-box" id="textTesterSection">
+                    <h2>Text Tester Section</h2>
+                    <form id="textForm">
+                        <input type="text" id="textInput" placeholder="Enter text">
+                        <button type="button" onclick="validateText()">Validate Text</button>
+                    </form>
+                </div>
+
+                <div class="content-box" id="addTextSection">
+                    <h2>Add Text Section</h2>
+                    <button type="button" onclick="addText()">Add Text</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer id="bar">
+            <p>Copyright © Joshua Chavarria</p>
+        </footer>
+
+        <script src="script.js"></script> <!-- Link to the JavaScript file -->
+    </body>
+</html>
